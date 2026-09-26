@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --hp-navy: #001f3f;
+  --hp-blue: #0077b6;
+  --hp-cyan: #00b4d8;
+  --hp-sky: #90e0ef;
+  --hp-ice: #caf0f8;
+  --background: var(--hp-navy);
+  --foreground: var(--hp-ice);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+.water-grid {
+  background-image: linear-gradient(#00b4d812 1px, transparent 1px),
+    linear-gradient(90deg, #00b4d812 1px, transparent 1px);
+  background-size: 48px 48px;
+  animation: grid-drift 24s linear infinite;
+}
+
+.water-particle {
+  top: -4%;
+  animation-name: rain-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rain-fall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(110vh) translateX(12px);
+    opacity: 0;
+  }
+}
+
+@keyframes grid-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 48px 48px;
+  }
+}
