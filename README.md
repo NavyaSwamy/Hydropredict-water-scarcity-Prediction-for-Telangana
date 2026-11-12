@@ -20,9 +20,11 @@
   <em>Predicting water risk before it becomes a crisis — using rainfall, groundwater, temperature, historical trends, and machine learning.</em>
 </p>
 
-## **Live Application:**
-
-[🚀 Explore HydroPredict AI](https://navyaswamy.github.io/Hydropredict-water-scarcity-Prediction-for-Telangana/)
+<p align="center">
+  <a href="https://navyaswamy.github.io/Hydropredict-water-scarcity-Prediction-for-Telangana/">
+    <strong>🚀 Live Project Demo</strong>
+  </a>
+</p>
 
 <p align="center">
   <a href="#-overview">Overview</a> •
@@ -732,13 +734,15 @@ B V Raju Institute of Technology, Narsapur, Telangana
 
 ---
 
-## 🔗 Repository
+## 🔗 Repository & Live Demo
 
 **GitHub Repository:**
 
-[https://github.com/NavyaSwamy/Hydropredict-water-scarcity-Prediction-for-Telangana](https://github.com/NavyaSwamy/Hydropredict-water-scarcity-Prediction-for-Telangana)
+[HydroPredict AI – GitHub Repository](https://github.com/NavyaSwamy/Hydropredict-water-scarcity-Prediction-for-Telangana)
 
----
+**Live Application:**
+
+[🚀 Explore HydroPredict AI](https://navyaswamy.github.io/Hydropredict-water-scarcity-Prediction-for-Telangana/)
 
 ## ⭐ Support
 
