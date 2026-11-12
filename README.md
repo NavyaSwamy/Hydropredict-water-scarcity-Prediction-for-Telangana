@@ -542,6 +542,16 @@ npm run dev
 http://localhost:3000
 ```
 
+### Deploy to GitHub Pages
+
+The repository includes a GitHub Actions workflow that builds and publishes the frontend as a static site whenever changes are pushed to `main`.
+
+1. In the GitHub repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+2. Push the project to the `main` branch, or manually run **Deploy to GitHub Pages** from the **Actions** tab.
+3. After the workflow succeeds, open `https://navyaswamy.github.io/Hydropredict-water-scarcity-Prediction-for-Telangana/`.
+
+This static deployment hosts the frontend and its bundled sample data. It does not host a Python notebook as a live prediction API.
+
 ---
 
 ## 📊 Data
