@@ -20,6 +20,10 @@
   <em>Predicting water risk before it becomes a crisis — using rainfall, groundwater, temperature, historical trends, and machine learning.</em>
 </p>
 
+## **Live Application:**
+
+[🚀 Explore HydroPredict AI](https://navyaswamy.github.io/Hydropredict-water-scarcity-Prediction-for-Telangana/)
+
 <p align="center">
   <a href="#-overview">Overview</a> •
   <a href="#-features">Features</a> •
